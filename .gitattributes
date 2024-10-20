@@ -1,0 +1,31 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Unity specific file types
+*.cs text diff=csharp
+*.shader text
+*.mat text
+*.meta text
+*.unity text
+*.prefab text
+
+# Image formats
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.tiff binary
+*.gif binary
+*.bmp binary
+*.exr binary
+*.hdr binary
+
+# Binary file formats
+*.fbx binary
+*.obj binary
+*.dll binary
+*.a binary
+*.lib binary
+*.dylib binary
+*.exe binary
